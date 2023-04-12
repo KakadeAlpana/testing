@@ -1,0 +1,32 @@
+/* 
+//css module  
+box model
+selector
+Multiple background
+Bordertext-effect
+2D/3D trans.
+Animaion(keyframe)
+mul layout
+
+html vs html5
+*/
+/* flex changeing order of logically */
+.row{
+    display: flex;
+    /* row default */
+    /* flex-direction: row; 
+    flex-direction: row-reverse; */
+
+}
+.col{
+    height: 100px;
+    font-size: 20px;
+    background-color: orange;
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+    width: 100px;
+}
+.col.col-5 {
+    order: -1;
+}
